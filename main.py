@@ -49,7 +49,6 @@ def main():
     def funcion_super_secreta(token):
         print("🚀 ¡ÉXITO! Has entrado a la zona de Admin.")
 
-    # 2. Definimos otra que requiere un rol que NO tenemos
     @login_required
     @has_role("SuperDios")
     def funcion_imposible(token):
