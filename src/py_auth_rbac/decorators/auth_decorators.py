@@ -1,5 +1,5 @@
 from functools import wraps
-from src.tokenManager.token_service import TokenManager
+from ..tokenManager.token_service import TokenManager
 import inspect
 
 
